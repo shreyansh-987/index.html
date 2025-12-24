@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+header {
+    background: #000;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: orange;
+}
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.hero {
+    height: 85vh;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20241013/pngtree-luxury-sport-car-wallpape-futuristic-sports-stand-next-to-background-image_16374285.jpg") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.form{
+    color:#0df2fa;
+}
+.button{
+     padding: 12px 30px;
+    border: none;
+    background: rgb(203, 216, 22);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+
+</style>
+<body>
+       <header>
+        <h1 class="logo">Autowheel</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Cars</a>
+            <a href="#">Offers</a>
+            <a href="#">Contact</a>
+            
+        </nav>
+        <form action="#" method="get">
+            <input type="search" name="q" placeholder="Search here..." />
+            <button type="submit">Search</button>
+            </form>
+    </header> 
+    <div class="container">
+        <section class="hero">
+        <h1>Drive Your Dream Car</h1>
+        <p>Luxury • Performance • Style</p>
+        <br>
+        
+        <form class="form">
+    <lable for="Full Name">Full Name:</lable>
+    <input type="text" id="Full Nmae">
+    <br><br>
+    <lable for="Email">Email:</lable>
+    <input type="text" id="Email">
+    <br><br>
+    <lable for="Password">Password:</lable>
+    <input type="text" id="Password">
+    <br>
+    <br>
+   <button class="button"> <a href="sign in.html">sign in</button></a>
+    </form>
+    </section>
+    </div>
+    <footer>
+        <p>© 2025 Autowheel Showroom | Designed by shreyansh(2025B15410156)</p>
+    </footer>
+</body>
+</html>
